@@ -1,0 +1,159 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+.my-navbar .navbar-brand img {
+  width: 138px;
+  height: 35px;
+}
+
+
+.my-navbar .active {
+  border-bottom: solid forestgreen 3px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+}
+
+.my-navbar .nav-item {
+  transition: all 0.2s ease;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.my-navbar .nav-item:hover {
+  border-bottom: solid forestgreen 3px;
+}
+
+
+.my-navbar .nav-link {
+  font-size: 1.15rem;
+}
+
+
+.my-navbar {
+  margin: 0px;
+  padding: 0px;
+}
+  .title{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 3rem;
+    padding-left: 50rem;
+  }
+  .title h4{
+      font-family: Arial, Helvetica, sans-serif;
+   
+  }
+
+  table td tr{
+      padding-left: 123rem;
+  }
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+body{
+  background-color: rgb(228, 228, 228);
+}
+
+
+    .inner-div{
+height: 350px;
+width: 600px;
+background-color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+border-radius: 25px;
+transition: .7s;
+
+}
+.inner-div:hover{
+box-shadow: 0 0 30px 1px rgba(0, 0, 0, 0.1);
+border-radius: 0;
+transition: .7s;
+}
+    .table-div-container{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 98rem;
+    
+    }
+
+    h1{
+      font-family: 'Times New Roman';
+     
+    }
+    .inner-h4-div{
+      margin: 15px;
+    }
+
+    .page-footer {
+      color: #4f4f4f;
+      background-color: #eceff1;
+    }
+    
+    .page-footer hr {
+      background-color: forestgreen;
+    }
+    
+    .footer-title {
+      background-color: forestgreen;
+    }
+    
+    .footer-title a {
+      color: white;
+    }
+    
+    .footer-copyright a {
+      color: #4f4f4f;
+    }
+    
+    .footer-title a,
+    .footer-copyright a {
+      text-decoration: none !important;
+      -webkit-transition: 0.3s all ease;
+      -moz-transition: 0.3s all ease;
+      transition: 0.3s all ease;
+      display: inline-block;
+      cursor: pointer !important;
+    }
+    
+    .footer-title a:hover {
+      color: white;
+      font-size: 30px;
+      margin: -20px -6px;
+    }
+    
+    .footer-copyright {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+    
+    
+    .footer a{
+      color: lightgrey;
+    }
+    
+    footer a:hover{
+      color: black !important;
+    }
+
+    .footer-title h6{
+        text-align: center;
+
+    }

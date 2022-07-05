@@ -1,0 +1,198 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
+.my-navbar .navbar-brand img {
+  width: 138px;
+  height: 35px;
+}
+
+
+.my-navbar .active {
+  border-bottom: solid forestgreen 3px;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+}
+
+.my-navbar .nav-item {
+  transition: all 0.2s ease;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.my-navbar .nav-item:hover {
+  border-bottom: solid forestgreen 3px;
+}
+
+
+.my-navbar .nav-link {
+  font-size: 1.15rem;
+}
+
+
+.my-navbar {
+  margin: 0px;
+  padding: 0px;
+}
+
+.factory-image {
+  background-image: url("../Images/factory.jpg");
+  background-size: cover;
+  background-position: bottom;
+  height: 500px;
+  width: 100%;
+}
+
+.factory-image:hover{
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.1);
+} 
+
+.factory-p1 {
+  font-size: 4rem;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 20px;
+}
+
+
+.factory-p2 {
+  font-size: 3rem;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 20px;
+}
+
+.title{
+  text-align:center;
+  margin-bottom: 60px;
+  padding: 2rem;
+}
+
+.containerh1{
+  text-align:center;
+  margin-bottom:60px;
+}
+.containerh1 h1{
+  text-transform:capitalize;
+  font-size:36px;
+  position:relative;
+  display:inline-block;
+  padding-bottom:10px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.containerh1 h1:before{
+  position:absolute;
+  content:"";
+  width:120px;
+  height:2px;
+  background-color: #25be35;
+  bottom:0;
+  left:50%;
+  transform:translateX(-50%);
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card-body li:hover{
+border: solid 1px forestgreen;
+background-color: rgb(243, 243, 243);
+}
+
+
+.card:hover{
+  border: solid 1px forestgreen;
+}
+.card-body a{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.storydivcontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.inner-div{
+
+  background-color: white;
+}
+
+
+.storyh1{
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+hr{
+  width: 60%;
+  margin-left: 20%;
+  color: black;
+}
+
+.inner-div p{
+  text-align: center;
+  padding-top: 2rem;
+}
+
+
+.page-footer {
+  color: #4f4f4f;
+  background-color: #eceff1;
+}
+
+.page-footer hr {
+  background-color: forestgreen;
+}
+
+.footer-title {
+  background-color: forestgreen ;
+}
+
+.footer-title a {
+  color: white;
+}
+
+.footer-copyright a {
+  color: #4f4f4f;
+}
+
+.footer-title a,
+.footer-copyright a {
+  text-decoration: none !important;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  display: inline-block;
+  cursor: pointer !important;
+}
+
+.footer-title a:hover {
+  color: white;
+  font-size: 30px;
+  margin: -20px -6px;
+}
+
+.footer-copyright {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.footer a{
+  color: lightgrey;
+}
+
+footer a:hover{
+  color: black !important;
+}
